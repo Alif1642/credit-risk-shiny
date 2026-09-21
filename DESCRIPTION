@@ -1,0 +1,20 @@
+Package: creditriskshiny
+Type: Project
+Title: Credit Risk Analytics and Loan Default Prediction Dashboard
+Version: 1.0.0
+Authors@R: person("Md. Alif", "Hossen", role = c("aut", "cre"), email = "alifhossen3719@gmail.com")
+Description: An educational R Shiny dashboard for synthetic credit risk analytics,
+    loan default classification, model evaluation, and individual risk prediction.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3.0)
+Imports:
+    shiny,
+    shinythemes,
+    tidyverse,
+    tidymodels,
+    randomForest,
+    plotly,
+    DT,
+    readr,
+    scales

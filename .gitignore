@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rprofile
+.Renviron
+renv/library/
+renv/staging/
+models/*.rds
+data/credit_data.csv
+rsconnect/
+.DS_Store
+Thumbs.db
+*.log

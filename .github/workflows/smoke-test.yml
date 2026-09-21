@@ -1,0 +1,40 @@
+name: R smoke test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install system dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::shiny
+            any::shinythemes
+            any::tidyverse
+            any::tidymodels
+            any::randomForest
+            any::plotly
+            any::DT
+            any::readr
+            any::scales
+
+      - name: Run modelling smoke test
+        run: Rscript tests/smoke_test.R
