@@ -248,6 +248,6 @@ AI/ML Engineer · Data Science · Machine Learning
 - [Portfolio](https://alif1642.github.io/portfolio/)
 - [Live Demo](https://alif1642.shinyapps.io/credit-risk-shiny/)
 
-## Licenses
+## License
 
 This project is available under the [MIT License](LICENSE).
