@@ -1,4 +1,4 @@
-# Credit Risk Analytics & Loan Default Prediction Dashboard
+# Credit Risk Analytics & Loan Default Prediction Dashboard-
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-shinyapps.io-00A65A?style=for-the-badge&logo=rstudio&logoColor=white)](https://alif1642.shinyapps.io/credit-risk-shiny/)
 [![R](https://img.shields.io/badge/R-%3E%3D%204.3-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
